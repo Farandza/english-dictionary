@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>English Dictionary</title>
+    <link rel="stylesheet" type="text/css" href="dictionary.css" />
+  </head>
+  <body>
+    <main>
+      <h1>English Dictionary 📚</h1>
+      <div>
+        <form action="">
+          <input type="text" placeholder="Type the word here" />
+          <button>Find</button>
+        </form>
+        <p class="formnote">Press 'Enter' or click 'Find'</p>
+      </div>
+      <section class="hidden">
+        <h3 class="word">Word</h3>
+        <p class="phonetic">Phonetic</p>
+        <span class="speak">🗣️</span>
+        <p class="pos">Parts of Speech</p>
+        <p class="meaning">Meaning</p>
+      </section>
+      <p class="error hidden">
+        Sorry, we couldn't find definitions for the word you were looking for.
+      </p>
+    </main>
+    <footer>&#169; Designed by Oluwaseun Kayode</footer>
+
+    <script src="dictionary.js"></script>
+  </body>
+</html>
